@@ -1,0 +1,2072 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 16176 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/UP/WallBall_v2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50195
+Successfully changed project path to: C:/UP/WallBall_v2
+C:/UP/WallBall_v2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18240] Host "[IP] 192.168.31.111 [Port] 0 [Flags] 2 [Guid] 2478707516 [EditorId] 2478707516 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9D2O4DV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18240] Host "[IP] 192.168.31.111 [Port] 0 [Flags] 2 [Guid] 2478707516 [EditorId] 2478707516 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9D2O4DV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 143.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UP/WallBall_v2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008746 seconds.
+- Loaded All Assemblies, in  0.505 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 524 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.094 seconds
+Domain Reload Profiling: 1598ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (231ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1094ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (996ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (740ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.854 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.628 seconds
+Domain Reload Profiling: 1479ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (635ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (374ms)
+			TypeCache.Refresh (342ms)
+				TypeCache.ScanAssembly (328ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (629ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (1.9 MB). Loaded Objects now: 5567.
+Memory consumption went from 214.9 MB to 213.0 MB.
+Total: 3.531000 ms (FindLiveObjects: 0.304900 ms CreateObjectMapping: 0.214500 ms MarkObjects: 2.507700 ms  DeleteObjects: 0.502500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3500.855440 seconds.
+  path: Assets/Cartoon Temple Building Kit/Materials/Cartoon Templ Builder Kit.mat
+  artifactKey: Guid(112495ee01e1b834a89c654405f9be48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Materials/Cartoon Templ Builder Kit.mat using Guid(112495ee01e1b834a89c654405f9be48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fd67bd113922d844d96f4ead6724d7') in 0.105078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.899 seconds
+Domain Reload Profiling: 1521ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (240ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (900ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4990 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 5610.
+Memory consumption went from 188.0 MB to 186.1 MB.
+Total: 5.067300 ms (FindLiveObjects: 0.312800 ms CreateObjectMapping: 0.182000 ms MarkObjects: 3.634300 ms  DeleteObjects: 0.936900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.847 seconds
+Domain Reload Profiling: 1491ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (460ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (255ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4991 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 5613.
+Memory consumption went from 188.2 MB to 186.3 MB.
+Total: 3.571900 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.178800 ms MarkObjects: 2.617700 ms  DeleteObjects: 0.421200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 384.339162 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 1x2.prefab
+  artifactKey: Guid(031d214320bef0040aaca83051cbcdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 1x2.prefab using Guid(031d214320bef0040aaca83051cbcdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c5481d33ecc99247453a60b6905050') in 0.135297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x3.prefab
+  artifactKey: Guid(7ea34e6f682931741acaff14ec0dfcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x3.prefab using Guid(7ea34e6f682931741acaff14ec0dfcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19b861dc92cac7ec24cc3319ce2e0d9') in 0.027484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x2x5.prefab
+  artifactKey: Guid(bd2ad23db69b4dc4e83f2382ecee21b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x2x5.prefab using Guid(bd2ad23db69b4dc4e83f2382ecee21b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2d90eec85b3d9db1eedcb4de4915a7') in 0.046726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x3x5.prefab
+  artifactKey: Guid(5bd01d471a3915948b72bddc45509da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x3x5.prefab using Guid(5bd01d471a3915948b72bddc45509da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c91581b92c89f872da4a4b01f42645') in 0.018354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x4.prefab
+  artifactKey: Guid(c605a43dd9fb82e47b0667a9595655a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x4.prefab using Guid(c605a43dd9fb82e47b0667a9595655a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeb9dd0f2f82c0c9e61771070272777') in 0.016976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x5.prefab
+  artifactKey: Guid(a4cae002562d87e4ea0f3f9841c73dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x5.prefab using Guid(a4cae002562d87e4ea0f3f9841c73dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee8ae57540a00316162e994cf5a334a') in 0.017396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x4x6.prefab
+  artifactKey: Guid(3794638b8cc1f4342bb58ebe73f01b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x4x6.prefab using Guid(3794638b8cc1f4342bb58ebe73f01b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24a212e40db42c9a90929fd161f78af') in 0.016819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x2x4.prefab
+  artifactKey: Guid(ad9212a6233106e449d805e73c42fa67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x2x4.prefab using Guid(ad9212a6233106e449d805e73c42fa67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b1cb49966a85cc3a29bb7de62f377b') in 0.016215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x4x5.prefab
+  artifactKey: Guid(ebd3298daeb02c443a1bd58dc7865274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x4x5.prefab using Guid(ebd3298daeb02c443a1bd58dc7865274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62dc44cc6efffa2bb7c36af22bebaf2') in 0.016248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x2x4.prefab
+  artifactKey: Guid(ce89ca0fcef8db34cb7046ee2ba6f1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x2x4.prefab using Guid(ce89ca0fcef8db34cb7046ee2ba6f1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c145f2a50495aab8635e42ba337f867') in 0.018280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x4.prefab
+  artifactKey: Guid(4fa2fe5ac82445743bc208c6699715a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x4.prefab using Guid(4fa2fe5ac82445743bc208c6699715a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d75b3afbd7e99f92d2a1196ddd0105c') in 0.017147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x2x2.prefab
+  artifactKey: Guid(3ce3463b3d8adc542bc156f5ff199576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x2x2.prefab using Guid(3ce3463b3d8adc542bc156f5ff199576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd870f81b93b56a85721ae7279fa624') in 0.017546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x5x6.prefab
+  artifactKey: Guid(e07cdc7f18ae4164b9dfd57a9915f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x5x6.prefab using Guid(e07cdc7f18ae4164b9dfd57a9915f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ab2b5e400913e868d724f1f050e158') in 0.018672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x5.prefab
+  artifactKey: Guid(53243bf9ab07b624bbc0d41f65464f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x5.prefab using Guid(53243bf9ab07b624bbc0d41f65464f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde04d4334d3d8ced2d543bc968a8634') in 0.018509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x3x3.prefab
+  artifactKey: Guid(59d4078c87d00d646b0b3399191dd206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x3x3.prefab using Guid(59d4078c87d00d646b0b3399191dd206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85773222ab938125fa8e1cbd160ebbb7') in 0.016625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x4x6.prefab
+  artifactKey: Guid(176ba99b20198f14c8a4f4ae390277ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x4x6.prefab using Guid(176ba99b20198f14c8a4f4ae390277ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f664fc2d376fb7e135f2ea9c2dc5cb') in 0.018714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x3.prefab
+  artifactKey: Guid(8eefc63da8fd4574492acab63fc871ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x3.prefab using Guid(8eefc63da8fd4574492acab63fc871ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358e84f6d4729784b75d6bf37832cb01') in 0.018011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x4x4.prefab
+  artifactKey: Guid(1b9856198f097c4438bd741e3c93b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x4x4.prefab using Guid(1b9856198f097c4438bd741e3c93b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4598b8a13a28547923a536439f55474c') in 0.017962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.572886 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x5x7.prefab
+  artifactKey: Guid(ad9c9c82dcc82564491f535db640b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x5x7.prefab using Guid(ad9c9c82dcc82564491f535db640b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75da6f83da182fa8848b79adb727438b') in 0.018180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 6x5x7.prefab
+  artifactKey: Guid(3cc62c9eb2cae674c90d15cf8b60d64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 6x5x7.prefab using Guid(3cc62c9eb2cae674c90d15cf8b60d64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119b50847980384846c4dc96ae2913e4') in 0.024755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 7x5x7.prefab
+  artifactKey: Guid(228f38b746aa99e41905e48ee12546ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 7x5x7.prefab using Guid(228f38b746aa99e41905e48ee12546ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37afc027edf7fc2ba5a8e8fd80b1c733') in 0.021402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 8.004995 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 2.prefab
+  artifactKey: Guid(518bfedf2f3d1c447a71e7833b37add0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 2.prefab using Guid(518bfedf2f3d1c447a71e7833b37add0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea07a0e5450dfe21a3b95cc6491a51b1') in 0.051424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Corner Blocks 1.prefab
+  artifactKey: Guid(0a6797c4a231fac49a48f31b1c0e6265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Corner Blocks 1.prefab using Guid(0a6797c4a231fac49a48f31b1c0e6265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07895e668e19f63e4933289822ffd1e1') in 0.033905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 9.prefab
+  artifactKey: Guid(5867290e015fa3240a9f71e45f6bb3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 9.prefab using Guid(5867290e015fa3240a9f71e45f6bb3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d0ea773e44e9229d88e5bee74917dd') in 0.070118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Corner Blocks 2.prefab
+  artifactKey: Guid(e7d2ab88c0cd3e04aa5673db5c3c3c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Corner Blocks 2.prefab using Guid(e7d2ab88c0cd3e04aa5673db5c3c3c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2441694c30d994cff6cd3de063495a41') in 0.033801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 6.prefab
+  artifactKey: Guid(6a0e629cf233aab4f9ec03102689e4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 6.prefab using Guid(6a0e629cf233aab4f9ec03102689e4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4cb605304e8a5c7434ce2bcc2169c5') in 0.017934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 1.prefab
+  artifactKey: Guid(e36c72729446ee042b8cf10e553af4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 1.prefab using Guid(e36c72729446ee042b8cf10e553af4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594ed0e23859dc34f7afe595b6be4000') in 0.018028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 15.prefab
+  artifactKey: Guid(c4bf14239f041ac4491b4bc1d5422d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 15.prefab using Guid(c4bf14239f041ac4491b4bc1d5422d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3769e01060be79127a8e1cf06ab49f2e') in 0.017536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 17.prefab
+  artifactKey: Guid(b1fd5a6066c768a478b7e2644e327784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 17.prefab using Guid(b1fd5a6066c768a478b7e2644e327784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1246845312c1d1207afaec31fa657e19') in 0.020125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 20.prefab
+  artifactKey: Guid(720bce293a144834e87a8a50a7a6d503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 20.prefab using Guid(720bce293a144834e87a8a50a7a6d503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c05a254e7ed4429d0245af040ee12a4') in 0.017551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 3.prefab
+  artifactKey: Guid(988cb30493725cf43b468a8ba18d0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 3.prefab using Guid(988cb30493725cf43b468a8ba18d0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3617c98ee58984164e58e94e8e0456') in 0.017429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 257.288114 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 1.prefab
+  artifactKey: Guid(3938407b3ec25084891253dd04c7dc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 1.prefab using Guid(3938407b3ec25084891253dd04c7dc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab822d24ab0175c8ca3386cb4a2a8cc') in 0.051900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002543 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 4.prefab
+  artifactKey: Guid(4da570c502021f54da11d2e4e2aaaf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 4.prefab using Guid(4da570c502021f54da11d2e4e2aaaf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d78a086215453e3ca61193c007d1514') in 0.021725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 6 One Sided.prefab
+  artifactKey: Guid(26325b266903d2f43b60569e11a4f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 6 One Sided.prefab using Guid(26325b266903d2f43b60569e11a4f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a7b9f15b8bd384e7e40d4e712a908f') in 0.021093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 10.prefab
+  artifactKey: Guid(f062fa5660b145642af10dc6ca5cd57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 10.prefab using Guid(f062fa5660b145642af10dc6ca5cd57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23851a64414ad2e11137295f3b48bc59') in 0.019599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 7.prefab
+  artifactKey: Guid(5aba6795bee8c844f8b9fcc7a5c32864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 7.prefab using Guid(5aba6795bee8c844f8b9fcc7a5c32864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cd8ebb6091f96c34add304069268aa') in 0.017538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 15.prefab
+  artifactKey: Guid(f86db3ab309183749a24854be92c1e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 15.prefab using Guid(f86db3ab309183749a24854be92c1e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8440fa38fb0ef45b08ad0097afb632') in 0.023483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 17.prefab
+  artifactKey: Guid(a8668883b2309764292c91fa91bcc4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 17.prefab using Guid(a8668883b2309764292c91fa91bcc4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c627edd0e6a9f5b88669e0e0e472d6') in 0.023852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 8 One Sided.prefab
+  artifactKey: Guid(31309cfd6d9b2d842984276a74168d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 8 One Sided.prefab using Guid(31309cfd6d9b2d842984276a74168d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a71adca109c5ccc6ebeb5ae240f0264') in 0.017793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 16.prefab
+  artifactKey: Guid(eccc62ff48180704e820d50dc0618dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 16.prefab using Guid(eccc62ff48180704e820d50dc0618dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418fde1e76da4a7537b9fa9ccba3aa6a') in 0.019994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 11 One Sided.prefab
+  artifactKey: Guid(1788f74a562c23a4a806d33a5f1614cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 11 One Sided.prefab using Guid(1788f74a562c23a4a806d33a5f1614cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1793be1ea7a9e4c29b4c2fcbe93a3a') in 0.020437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 18 One Sided.prefab
+  artifactKey: Guid(24307d04e36adf14cbd47c2612b3de7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 18 One Sided.prefab using Guid(24307d04e36adf14cbd47c2612b3de7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7846d46a6beaf9bd4824aab3008a96e6') in 0.024313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 4 One Sided.prefab
+  artifactKey: Guid(d3ac6be58ed17034daddfc20c9157f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 4 One Sided.prefab using Guid(d3ac6be58ed17034daddfc20c9157f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a252e810a83b533d9aebf21827b6c961') in 0.019751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 13 One Sided.prefab
+  artifactKey: Guid(38c11ea8c04957343bf85e227825f955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 13 One Sided.prefab using Guid(38c11ea8c04957343bf85e227825f955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a552d333163164c6b8773c1051ca1138') in 0.021676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 2.prefab
+  artifactKey: Guid(92b9dc69df6d54045ac4c5929235faeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 2.prefab using Guid(92b9dc69df6d54045ac4c5929235faeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88ccbda67b53d0ea80aa4b54eadd565') in 0.020611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 12 One Sided.prefab
+  artifactKey: Guid(d22a13d412c7e174282729c232d0292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 12 One Sided.prefab using Guid(d22a13d412c7e174282729c232d0292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a738fce125a03700abb2adc664d62a09') in 0.022378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 19.prefab
+  artifactKey: Guid(86fc7ed81a72d4145b85c2d3268ba88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 19.prefab using Guid(86fc7ed81a72d4145b85c2d3268ba88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfa2a487947518a58cceebf3c0d5618') in 0.024574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 8.prefab
+  artifactKey: Guid(5ae27445b16dccf429b91f6cabc5646b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 8.prefab using Guid(5ae27445b16dccf429b91f6cabc5646b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b3f2657cdfe6f7d888630070cb08bd') in 0.025303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 9  One Sided.prefab
+  artifactKey: Guid(867ca91a138df104490a3d3cb491a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 9  One Sided.prefab using Guid(867ca91a138df104490a3d3cb491a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb66d40428196d329cc85e7ddc8c5bd2') in 0.019144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.822230 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 19 One Sided.prefab
+  artifactKey: Guid(00e4af8e1ccd27b439346bbace84f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 19 One Sided.prefab using Guid(00e4af8e1ccd27b439346bbace84f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f1d2f9b952045e17918032297bbf1f') in 0.027532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 20 One Sided.prefab
+  artifactKey: Guid(7464a7afeb57b4d489194ea2d9829054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 20 One Sided.prefab using Guid(7464a7afeb57b4d489194ea2d9829054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7c038fd904e717907b25d0ca973ffe') in 0.027723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 54.128410 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 1.prefab
+  artifactKey: Guid(6e160064d4d12e446ab9ded16202c5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 1.prefab using Guid(6e160064d4d12e446ab9ded16202c5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a04343468acd386a330e938c5204e9f') in 0.019522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 4 Hallway x1.prefab
+  artifactKey: Guid(b35c5f5fde763024f994cd863da1ad14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 4 Hallway x1.prefab using Guid(b35c5f5fde763024f994cd863da1ad14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e89671566f80bb006e887ca8b26ff9a') in 0.030221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Hallway 3x3.prefab
+  artifactKey: Guid(5e680e523ba9fec4aba42db2a9e21fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Hallway 3x3.prefab using Guid(5e680e523ba9fec4aba42db2a9e21fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd3db25aa469d42974d65b2b425c928') in 0.017485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 4 Hallway x3.prefab
+  artifactKey: Guid(b49501e5459d9ec43990a60ceec19772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 4 Hallway x3.prefab using Guid(b49501e5459d9ec43990a60ceec19772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85bd94694c6cd7c18f448295a527ef7') in 0.017678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 4 Hallway x2.prefab
+  artifactKey: Guid(1c3df32a74d71d946952664e82c025eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 4 Hallway x2.prefab using Guid(1c3df32a74d71d946952664e82c025eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b6ed6e4b9869f9f1750d96b6d04c0c') in 0.017230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 17.604264 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 3x4 One Sided.prefab
+  artifactKey: Guid(f4bf6091443e4524584ca67c8a579ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 3x4 One Sided.prefab using Guid(f4bf6091443e4524584ca67c8a579ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e93d418f457c647063847c4ef2d69c') in 0.032765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 4x4 One Sided.prefab
+  artifactKey: Guid(a766b84ed26307a4f941eeeb60f04411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 4x4 One Sided.prefab using Guid(a766b84ed26307a4f941eeeb60f04411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624d971615a196790298fe2f4a4f7242') in 0.072367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 4x6 One Sided.prefab
+  artifactKey: Guid(41b3c2448edea664a86648af6eb4e26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 4x6 One Sided.prefab using Guid(41b3c2448edea664a86648af6eb4e26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739845e7552f1eb497b6f47aeac2b0ce') in 0.057756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 4x6.prefab
+  artifactKey: Guid(a4488b63b5a6d0441a00e4d7c24f7e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 4x6.prefab using Guid(a4488b63b5a6d0441a00e4d7c24f7e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b732692fe7992d8f24b5f724128ce416') in 0.029208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.414899 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile 1x2.prefab
+  artifactKey: Guid(9d75bd5694a1ef840a06400b3cdacd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile 1x2.prefab using Guid(9d75bd5694a1ef840a06400b3cdacd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499ac139fef73df0070a7e1e20bda98f') in 0.037453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile 4x4.prefab
+  artifactKey: Guid(6cd7440ceab5bd244aad79580a2f7817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile 4x4.prefab using Guid(6cd7440ceab5bd244aad79580a2f7817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384cc8cd00fc17eecb2323f6f106910f') in 0.023156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile Top 4.prefab
+  artifactKey: Guid(9b6fb70cc28cd8747bee42e49c46c383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile Top 4.prefab using Guid(9b6fb70cc28cd8747bee42e49c46c383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c8581ba062da0659f51679ba8056b8') in 0.021164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.327853 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 2.prefab
+  artifactKey: Guid(51ae3f080b0f5574198b3193c6b6187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 2.prefab using Guid(51ae3f080b0f5574198b3193c6b6187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d0de9a7d9be7a3905b917e02dda92a') in 0.027107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 6.prefab
+  artifactKey: Guid(e404537c4cbd3f3409eb4924c59b2092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 6.prefab using Guid(e404537c4cbd3f3409eb4924c59b2092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc9c6a5587ef00f5015c1b2927fbbd3') in 0.056683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 5.prefab
+  artifactKey: Guid(a098efec988cead44b01f528b8170ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 5.prefab using Guid(a098efec988cead44b01f528b8170ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8000024189e1dc4f2916a27c9e18d0a2') in 0.102941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 10.prefab
+  artifactKey: Guid(e4b6dc71c54fb9546ab4675a4c0f3a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 10.prefab using Guid(e4b6dc71c54fb9546ab4675a4c0f3a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02aa7dea43e009a1fe2ae042224326df') in 0.015668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.639 seconds
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.754 seconds
+Domain Reload Profiling: 1392ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (245ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4990 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 5616.
+Memory consumption went from 188.4 MB to 186.5 MB.
+Total: 3.113900 ms (FindLiveObjects: 0.293700 ms CreateObjectMapping: 0.180800 ms MarkObjects: 2.212800 ms  DeleteObjects: 0.425800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.613 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.783 seconds
+Domain Reload Profiling: 1394ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (225ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (783ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4991 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 5619.
+Memory consumption went from 188.7 MB to 186.8 MB.
+Total: 4.724600 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.219000 ms MarkObjects: 3.173000 ms  DeleteObjects: 0.988400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.564 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1291ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (389ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (211ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4991 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 5622.
+Memory consumption went from 188.7 MB to 186.8 MB.
+Total: 3.903900 ms (FindLiveObjects: 0.309800 ms CreateObjectMapping: 0.147100 ms MarkObjects: 3.042200 ms  DeleteObjects: 0.403700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 778.651520 seconds.
+  path: Assets/Cartoon Castle Building Kit
+  artifactKey: Guid(69d1103c750393142b66644665ea3ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Castle Building Kit using Guid(69d1103c750393142b66644665ea3ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1d0c0f7e5aa1fd12e06cd1adccf74b') in 0.019533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.726739 seconds.
+  path: Assets/Cartoon Castle Building Kit/Prefabs
+  artifactKey: Guid(71e131909e8ec364cb4a6775c86ce549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Castle Building Kit/Prefabs using Guid(71e131909e8ec364cb4a6775c86ce549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e177f02ef5aa84bd6a6568f5a0a8ef') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.833077 seconds.
+  path: Assets/Cartoon Castle Building Kit/Prefabs/Gate Prefabs
+  artifactKey: Guid(2a890eb659a575046a137957efea21fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Castle Building Kit/Prefabs/Gate Prefabs using Guid(2a890eb659a575046a137957efea21fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5253743dfded1c91bc716456c4a879a6') in 0.000490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077546 seconds.
+  path: Assets/Cartoon Castle Building Kit/Prefabs/Gate Prefabs/Iron Bars 1.prefab
+  artifactKey: Guid(0606acd8c4e646044bd935960e102339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Castle Building Kit/Prefabs/Gate Prefabs/Iron Bars 1.prefab using Guid(0606acd8c4e646044bd935960e102339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aeba2e345342b16fa571bf2be8c84f0') in 0.057740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.558649 seconds.
+  path: Assets/Cartoon Castle Building Kit/Fbx
+  artifactKey: Guid(4adfa8120385da74f89cd8b8bd39fbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Castle Building Kit/Fbx using Guid(4adfa8120385da74f89cd8b8bd39fbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbcad57bdecca81edc5f18490778f23') in 0.000800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.493270 seconds.
+  path: Assets/Cartoon Castle Building Kit/Fbx/Gates
+  artifactKey: Guid(9d76ceeee6814e14fae6c5a24fdba51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Castle Building Kit/Fbx/Gates using Guid(9d76ceeee6814e14fae6c5a24fdba51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e946d3c521a5f97c93add0b1c14cc62') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063461 seconds.
+  path: Assets/Cartoon Castle Building Kit/Fbx/Gates/Iron Bars 1.fbx
+  artifactKey: Guid(f55affb46c02f1540829a827c11b700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Castle Building Kit/Fbx/Gates/Iron Bars 1.fbx using Guid(f55affb46c02f1540829a827c11b700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8357166b2f0e34b05907c655e925902') in 0.053478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 629.266842 seconds.
+  path: Assets/Scripts/PlayerInput.cs
+  artifactKey: Guid(d82e33a1d73a04f46b3175abf0582baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerInput.cs using Guid(d82e33a1d73a04f46b3175abf0582baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413f0d120513375ee49ef8c917eee745') in 0.001362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.543 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.628 seconds
+Domain Reload Profiling: 1171ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (202ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (629ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4988 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (1.9 MB). Loaded Objects now: 5627.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 2.860500 ms (FindLiveObjects: 0.272500 ms CreateObjectMapping: 0.162000 ms MarkObjects: 2.022400 ms  DeleteObjects: 0.402800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17.766662 seconds.
+  path: Assets/Scripts/Button_Open.cs
+  artifactKey: Guid(a53681901d0733d439d1898aed4d86c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Button_Open.cs using Guid(a53681901d0733d439d1898aed4d86c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa6abf28000b4ac469714165b823978') in 0.012764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.740 seconds
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.446 seconds
+Domain Reload Profiling: 2184ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (335ms)
+			TypeCache.Refresh (314ms)
+				TypeCache.ScanAssembly (301ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1446ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (625ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4989 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5631.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 3.128500 ms (FindLiveObjects: 0.310900 ms CreateObjectMapping: 0.173000 ms MarkObjects: 2.251600 ms  DeleteObjects: 0.392200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.800723 seconds.
+  path: Assets/Scripts/Button_Open.cs
+  artifactKey: Guid(a53681901d0733d439d1898aed4d86c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Button_Open.cs using Guid(a53681901d0733d439d1898aed4d86c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601eeb6e9b1c5a6a4ec4c057d1acefd4') in 0.005286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.569 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.669 seconds
+Domain Reload Profiling: 1237ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (212ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (670ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4989 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5634.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 3.119500 ms (FindLiveObjects: 0.260300 ms CreateObjectMapping: 0.166200 ms MarkObjects: 2.305800 ms  DeleteObjects: 0.386100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.576 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling: 1252ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (678ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4989 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5637.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 3.529300 ms (FindLiveObjects: 0.513000 ms CreateObjectMapping: 0.308900 ms MarkObjects: 2.137900 ms  DeleteObjects: 0.568400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1318ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (428ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (231ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (728ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4989 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5640.
+Memory consumption went from 188.5 MB to 186.6 MB.
+Total: 3.059500 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.159500 ms MarkObjects: 2.160100 ms  DeleteObjects: 0.439900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159.630640 seconds.
+  path: Assets/Scripts/Finish.cs
+  artifactKey: Guid(4605a00c5a196a942b7da921c1fc05d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Finish.cs using Guid(4605a00c5a196a942b7da921c1fc05d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6a81d73bc8a35320f738ccce99d222') in 0.005919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.615 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (239ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4990 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5644.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 3.256700 ms (FindLiveObjects: 0.438800 ms CreateObjectMapping: 0.227800 ms MarkObjects: 2.175000 ms  DeleteObjects: 0.413900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5.671155 seconds.
+  path: Assets/Scripts/Finish.cs
+  artifactKey: Guid(4605a00c5a196a942b7da921c1fc05d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Finish.cs using Guid(4605a00c5a196a942b7da921c1fc05d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f04cbd69c87b9361df0cea64b2c5241') in 0.005014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.179 seconds
+Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.372 seconds
+Domain Reload Profiling: 2546ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (842ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (513ms)
+			TypeCache.Refresh (488ms)
+				TypeCache.ScanAssembly (473ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1372ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4990 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5647.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 2.943300 ms (FindLiveObjects: 0.264400 ms CreateObjectMapping: 0.155600 ms MarkObjects: 2.100100 ms  DeleteObjects: 0.421700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 154.227786 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb066e31135d47c81c98c1c4d2d9ab62') in 0.007968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.861582 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8473e9f040abdc41c77931f51d129088') in 0.001039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.316778 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(aaf2f915f172c2b4bb39366cb6ac31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(aaf2f915f172c2b4bb39366cb6ac31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8e763dc0fde28209c3058a711016ec') in 0.000834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.361741 seconds.
+  path: Assets/Scenes/Level 3.unity
+  artifactKey: Guid(4569e8b37d8679a4b8df630aa41f14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 3.unity using Guid(4569e8b37d8679a4b8df630aa41f14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9a9b296ad158af7ebac563b59dba9c') in 0.000841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.469156 seconds.
+  path: Assets/Scenes/Level 4.unity
+  artifactKey: Guid(7b2b9c9a586a2804a94a0cd3153c3ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 4.unity using Guid(7b2b9c9a586a2804a94a0cd3153c3ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fdaf0d186ff7437009e0621051149c') in 0.000527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.752019 seconds.
+  path: Assets/Scenes/Level 5.unity
+  artifactKey: Guid(fff87e7c89b35ad45a20eb2bdbae387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 5.unity using Guid(fff87e7c89b35ad45a20eb2bdbae387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1aa3f674c754eaef64b19d2162ca85d') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.589 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1315ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (235ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4990 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5650.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 3.037500 ms (FindLiveObjects: 0.335000 ms CreateObjectMapping: 0.144800 ms MarkObjects: 2.154000 ms  DeleteObjects: 0.402900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.716 seconds
+Domain Reload Profiling: 1290ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (223ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4990 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5653.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 3.198600 ms (FindLiveObjects: 0.278900 ms CreateObjectMapping: 0.223600 ms MarkObjects: 2.267700 ms  DeleteObjects: 0.427700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.068 seconds
+Refreshing native plugins compatible for Editor in 6.38 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.453 seconds
+Domain Reload Profiling: 2518ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (832ms)
+		LoadAssemblies (351ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (528ms)
+			TypeCache.Refresh (501ms)
+				TypeCache.ScanAssembly (485ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4990 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5656.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 3.168300 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.160100 ms MarkObjects: 2.319700 ms  DeleteObjects: 0.423000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.865 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.354 seconds
+Domain Reload Profiling: 2217ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (652ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (407ms)
+			TypeCache.Refresh (395ms)
+				TypeCache.ScanAssembly (382ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1355ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (653ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4990 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5659.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 3.133300 ms (FindLiveObjects: 0.271100 ms CreateObjectMapping: 0.169500 ms MarkObjects: 2.306900 ms  DeleteObjects: 0.385000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.580 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1343ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (226ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (765ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4990 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.9 MB). Loaded Objects now: 5662.
+Memory consumption went from 188.6 MB to 186.7 MB.
+Total: 3.416000 ms (FindLiveObjects: 0.291600 ms CreateObjectMapping: 0.174400 ms MarkObjects: 2.429400 ms  DeleteObjects: 0.519300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 995.649531 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(ef38e80030740784390451c65bde206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(ef38e80030740784390451c65bde206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff45ce4dda650e9d3a2f0257218d6ef5') in 0.049276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.156933 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/Vegetation Prefabs
+  artifactKey: Guid(58bd5daf609473e4aaed4b500e0aa6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/Vegetation Prefabs using Guid(58bd5daf609473e4aaed4b500e0aa6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241677522b4297483df9465bbc72a814') in 0.000553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.064555 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/Vegetation Prefabs/Plant 1.prefab
+  artifactKey: Guid(b89a9d8ad1dfa7c40a07c9af2b891774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/Vegetation Prefabs/Plant 1.prefab using Guid(b89a9d8ad1dfa7c40a07c9af2b891774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184570d69595cf1f0c37872a787cb5e5') in 0.171631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/Vegetation Prefabs/Plant 3.prefab
+  artifactKey: Guid(f93d4ac05e888d74995965bf814bc3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/Vegetation Prefabs/Plant 3.prefab using Guid(f93d4ac05e888d74995965bf814bc3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a98df884141c04801e06091ef4e46b7') in 0.036913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/Vegetation Prefabs/Plants Hanging 1.prefab
+  artifactKey: Guid(d515a93a5b4c1d44f838a8669ec9c8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/Vegetation Prefabs/Plants Hanging 1.prefab using Guid(d515a93a5b4c1d44f838a8669ec9c8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449cf4e13d5ba96a6d31eb76ed467a91') in 0.038850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/Vegetation Prefabs/Plant 5.prefab
+  artifactKey: Guid(97b570f7d09b0e0449ff5aa9f4c56e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/Vegetation Prefabs/Plant 5.prefab using Guid(97b570f7d09b0e0449ff5aa9f4c56e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab3ae418a8b87622f90ee1a3c7c04b0') in 0.024555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

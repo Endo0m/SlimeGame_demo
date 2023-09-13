@@ -1,0 +1,874 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 16176 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/UP/WallBall_v2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50195
+Successfully changed project path to: C:/UP/WallBall_v2
+C:/UP/WallBall_v2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12472] Host "[IP] 192.168.31.111 [Port] 0 [Flags] 2 [Guid] 1026936381 [EditorId] 1026936381 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9D2O4DV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12472] Host "[IP] 192.168.31.111 [Port] 0 [Flags] 2 [Guid] 1026936381 [EditorId] 1026936381 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9D2O4DV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 88.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UP/WallBall_v2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009439 seconds.
+- Loaded All Assemblies, in  0.521 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 527 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.115 seconds
+Domain Reload Profiling: 1636ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1116ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1013ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (751ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.861 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.651 seconds
+Domain Reload Profiling: 1509ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (635ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (333ms)
+				TypeCache.ScanAssembly (319ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (651ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (1.9 MB). Loaded Objects now: 5567.
+Memory consumption went from 215.0 MB to 213.0 MB.
+Total: 3.289500 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.184600 ms MarkObjects: 2.343000 ms  DeleteObjects: 0.466200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.614 seconds
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.908 seconds
+Domain Reload Profiling: 1520ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (432ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (908ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (516ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4991 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 5570.
+Memory consumption went from 187.9 MB to 186.0 MB.
+Total: 4.192000 ms (FindLiveObjects: 0.421000 ms CreateObjectMapping: 0.180300 ms MarkObjects: 3.131300 ms  DeleteObjects: 0.457300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UP\WallBall_v2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.639 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 1488ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (257ms)
+				TypeCache.ScanAssembly (242ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (430ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4991 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 5573.
+Memory consumption went from 187.9 MB to 186.0 MB.
+Total: 3.070500 ms (FindLiveObjects: 0.295100 ms CreateObjectMapping: 0.176600 ms MarkObjects: 2.193600 ms  DeleteObjects: 0.404000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3885.314259 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 1x3.prefab
+  artifactKey: Guid(5d55707582e91d241a6c2310364b618f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 1x3.prefab using Guid(5d55707582e91d241a6c2310364b618f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31de05e90f4a35162ff6ebd07de42abb') in 0.127309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x3x4.prefab
+  artifactKey: Guid(971bfd9e644a9f94ca0a0a56043be9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x3x4.prefab using Guid(971bfd9e644a9f94ca0a0a56043be9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f4ed98911bb1b86469e4d8d93abdd3') in 0.029829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 1x4.prefab
+  artifactKey: Guid(8bfb28b749877c747a4d1109dfb3a7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 1x4.prefab using Guid(8bfb28b749877c747a4d1109dfb3a7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e48e9b8d1e7d5fa54f6b9c73e89bc0') in 0.044131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x5x5.prefab
+  artifactKey: Guid(de37ea5075d5b1a40ab0bef7065d3312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x5x5.prefab using Guid(de37ea5075d5b1a40ab0bef7065d3312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375543aa3028a74c824a2fb14adf3021') in 0.022614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x2x5.prefab
+  artifactKey: Guid(9e2b258c1f3e3934ab7e0d9e2e806958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x2x5.prefab using Guid(9e2b258c1f3e3934ab7e0d9e2e806958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68803553896e630e066224ffc1033d03') in 0.016623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x3x5.prefab
+  artifactKey: Guid(caf6568a121df1d4d86d285e36c2b286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x3x5.prefab using Guid(caf6568a121df1d4d86d285e36c2b286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf4b1cd89d990764f01091da24d730f') in 0.018130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x5.prefab
+  artifactKey: Guid(264789f214482b642a8a121f6dd5b2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x5.prefab using Guid(264789f214482b642a8a121f6dd5b2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4033d0c181b943e6d2868c8477350cf2') in 0.016416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x3x4.prefab
+  artifactKey: Guid(ed7ae83de4b50a24397bbba708adb962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x3x4.prefab using Guid(ed7ae83de4b50a24397bbba708adb962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0f25577615f2c7a4636f81c29e1c66') in 0.016833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x2x4.prefab
+  artifactKey: Guid(2abee158e30f38b41856c4521230c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x2x4.prefab using Guid(2abee158e30f38b41856c4521230c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626194ef908ca3d7c64227eba90e6fc4') in 0.017934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x2x3.prefab
+  artifactKey: Guid(71196c1c8ebc5bc49bd66bda5cd4722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 3x2x3.prefab using Guid(71196c1c8ebc5bc49bd66bda5cd4722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23c7722c6b395a5b9d890f7fbce0526') in 0.017445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x4.prefab
+  artifactKey: Guid(a72cea965c83408419bcabc267d9769c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x4.prefab using Guid(a72cea965c83408419bcabc267d9769c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8059ca86f54e753e3a1cb570ff12f80') in 0.016976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x2x3.prefab
+  artifactKey: Guid(13eb35ed6b82d384581254a368d87c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x2x3.prefab using Guid(13eb35ed6b82d384581254a368d87c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3034448fb190f5541690053a0c515032') in 0.017052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x2x5.prefab
+  artifactKey: Guid(28d662512bbb3aa44b7aa7df558b2f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x2x5.prefab using Guid(28d662512bbb3aa44b7aa7df558b2f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ae2ea3e70e21b51b2c374d8d19bf7f') in 0.018637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x3x5.prefab
+  artifactKey: Guid(a73e38a1afc66d7498065d24c99ec90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 4x3x5.prefab using Guid(a73e38a1afc66d7498065d24c99ec90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c8537787a71ffd6e25b3d934e29108') in 0.018980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 1x5.prefab
+  artifactKey: Guid(36407ad5ee1f4da4e8e9c83a83f2eec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 1x5.prefab using Guid(36407ad5ee1f4da4e8e9c83a83f2eec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cedb136152a94bceb03350c468ac787') in 0.016289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x2x5.prefab
+  artifactKey: Guid(9dc68d90e8a7ba2488cda753e9d5ff8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x2x5.prefab using Guid(9dc68d90e8a7ba2488cda753e9d5ff8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e5c36a298f27986032751bbf48d8e4') in 0.017768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x5.prefab
+  artifactKey: Guid(8dd7d95b908ae594f9289b4d236d45fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x5.prefab using Guid(8dd7d95b908ae594f9289b4d236d45fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfde168dc22d97a4de85f3a8522ebd91') in 0.016981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x4x5.prefab
+  artifactKey: Guid(4146e67805ee8834fbfbe805f427c25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 5x4x5.prefab using Guid(4146e67805ee8834fbfbe805f427c25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36715dfcf28bcacd757ff80d0c0a2cc6') in 0.018858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x2.prefab
+  artifactKey: Guid(9a06c4251e809fd479e9d1e20fb0dc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 2x2.prefab using Guid(9a06c4251e809fd479e9d1e20fb0dc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0dcac5c43fc77732540f816a0f1422') in 0.016695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.556169 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 6x4x6.prefab
+  artifactKey: Guid(00ec778fac5194541b0e739b5af80a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 6x4x6.prefab using Guid(00ec778fac5194541b0e739b5af80a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fb404463d0086dc4c705880173508b') in 0.025823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 6x5x6.prefab
+  artifactKey: Guid(57e5aa8d50d30c64798d6fdd39226e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks Prefabs/Block 6x5x6.prefab using Guid(57e5aa8d50d30c64798d6fdd39226e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cff00602bd5f1cb91cade20f27d896') in 0.027212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 8.029407 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 3.prefab
+  artifactKey: Guid(6140da5f593ba5f4688746c72de701b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 3.prefab using Guid(6140da5f593ba5f4688746c72de701b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcb779b4e20f6f9ef249ef730d6238d') in 0.038844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 7.prefab
+  artifactKey: Guid(6f7a26bd385920c42bfe5c2565896d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 7.prefab using Guid(6f7a26bd385920c42bfe5c2565896d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8abeda2d347eec0152fdf59e061ff61') in 0.032677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 5.prefab
+  artifactKey: Guid(427758c85f579f54f91f2e3a0450fc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 5.prefab using Guid(427758c85f579f54f91f2e3a0450fc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a05306a0888b1d1e38eea03b556f67') in 0.026537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 5.prefab
+  artifactKey: Guid(a3b461baf4f56ba4f8a798c0a6f29980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 5.prefab using Guid(a3b461baf4f56ba4f8a798c0a6f29980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2ad56e3ed241c00f547762992ec24a') in 0.045028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 2.prefab
+  artifactKey: Guid(c0629ec7492d192449701967ef3c3894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 2.prefab using Guid(c0629ec7492d192449701967ef3c3894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2748f65c5ede28ad384cde4e4f40e9ce') in 0.024083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Corner Blocks 3.prefab
+  artifactKey: Guid(e17abf8dcc2f594448572a5e3693bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Corner Blocks 3.prefab using Guid(e17abf8dcc2f594448572a5e3693bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1ad3be995aa1114d53df3fd4c6be08') in 0.017939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 10.prefab
+  artifactKey: Guid(4293d75a24751b045a36f2ab3949d8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Block Ruin Wall 10.prefab using Guid(4293d75a24751b045a36f2ab3949d8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a3eacbc5a2d71f3a06efdb6bc7e521') in 0.017941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 18.prefab
+  artifactKey: Guid(5f0d7459e1ea54d4780a6c54db08c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 18.prefab using Guid(5f0d7459e1ea54d4780a6c54db08c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f57fd8454bed4dfeb81adbe5e3e913e') in 0.017991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 7.prefab
+  artifactKey: Guid(9c71c9440b33f8f46b57582255da27bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 7.prefab using Guid(9c71c9440b33f8f46b57582255da27bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069535f603304ab02f53cedd2ef78a6e') in 0.018516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 10.prefab
+  artifactKey: Guid(dbd93157993c8244cb949c2b2de2b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 10.prefab using Guid(dbd93157993c8244cb949c2b2de2b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bc65dbe0b67c06e53c3986b0218b59') in 0.016719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 11.prefab
+  artifactKey: Guid(0a0a8498799e9d648bed781e9ef776c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Decorative Prefabs/FloorBlocks Corners Walls Prefabs/Floor Blocks 11.prefab using Guid(0a0a8498799e9d648bed781e9ef776c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadfbfd172da76afc1939e2c63976940') in 0.016860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 257.298356 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 1 One Sided.prefab
+  artifactKey: Guid(fae285bcf492f764789a1566f4bdb656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 1 One Sided.prefab using Guid(fae285bcf492f764789a1566f4bdb656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ceb0b75bac4b24a7869609a8e1c29f') in 0.047894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.003553 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 3 One Sided.prefab
+  artifactKey: Guid(fb6fa8b35978ae347908cb012fda38f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 3 One Sided.prefab using Guid(fb6fa8b35978ae347908cb012fda38f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bef7fef304e79a0409063bd3d02fb3') in 0.020481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 5 One Sided.prefab
+  artifactKey: Guid(bfc141ace33fc494b9fb7ab868e4fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 5 One Sided.prefab using Guid(bfc141ace33fc494b9fb7ab868e4fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c321da077e0708b7941eccbae2fe787') in 0.020302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 5.prefab
+  artifactKey: Guid(ce95550abf8148e449f64c4ec0b439e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 5.prefab using Guid(ce95550abf8148e449f64c4ec0b439e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309c2f31085b58c06e15455c98c1d5d2') in 0.018822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 9.prefab
+  artifactKey: Guid(aada8c74f09ef414ba53dc15bd6cb09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 9.prefab using Guid(aada8c74f09ef414ba53dc15bd6cb09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03b16804b0729c804acad4e3fe80c76') in 0.018418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 15 One Sided.prefab
+  artifactKey: Guid(ccd6cf5703c895840857d4413ed3c5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 15 One Sided.prefab using Guid(ccd6cf5703c895840857d4413ed3c5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad5109e111e143a314c9a9653156c65') in 0.028550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 11.prefab
+  artifactKey: Guid(dc277a61a79ed394bbd9834c412c8c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 11.prefab using Guid(dc277a61a79ed394bbd9834c412c8c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b5f8f9332a07d249d1f6657b3e9b37') in 0.020632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 7 One Sided.prefab
+  artifactKey: Guid(13fd31d337a8feb4d8e06287c8045c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 7 One Sided.prefab using Guid(13fd31d337a8feb4d8e06287c8045c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7082b1ef4a69b7361ac057546b57ce') in 0.017854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 17 One Sided.prefab
+  artifactKey: Guid(5eb3f967eae48934b98ff6d431981e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 17 One Sided.prefab using Guid(5eb3f967eae48934b98ff6d431981e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdf69e09179efee30911165906c72d8') in 0.018479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 16 One Sided.prefab
+  artifactKey: Guid(1407122fbc99a8545b0559ba5fd4f6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 16 One Sided.prefab using Guid(1407122fbc99a8545b0559ba5fd4f6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9cea98334eddc0e1e3c36828750a84') in 0.018920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 10 One Sided.prefab
+  artifactKey: Guid(a3f7345b2e0c9134eaed3a1f0f76f4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 10 One Sided.prefab using Guid(a3f7345b2e0c9134eaed3a1f0f76f4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdf53aa88c95a2948838b0d0367da52') in 0.018398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 14 One Sided.prefab
+  artifactKey: Guid(48a8424a4dc9c8e45b2c36d498d3b4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 14 One Sided.prefab using Guid(48a8424a4dc9c8e45b2c36d498d3b4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa58d7b2822a472a8a6ec6434ab048f') in 0.021640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 13.prefab
+  artifactKey: Guid(60c3310d728c71c4d9b347b747068488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 13.prefab using Guid(60c3310d728c71c4d9b347b747068488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eba2ca0ada645eaddf8e7b2281ca7e') in 0.022818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 6.prefab
+  artifactKey: Guid(d05947ed449906d48b6c13a1a38fafc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 6.prefab using Guid(d05947ed449906d48b6c13a1a38fafc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3df693e8a52610af42ef96e281d7e24') in 0.020415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 18.prefab
+  artifactKey: Guid(2210aa0d8aa51224ea23d701cbf28d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 18.prefab using Guid(2210aa0d8aa51224ea23d701cbf28d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb688dfb45cc20f5db6694859330499') in 0.022105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 12.prefab
+  artifactKey: Guid(e386dc0eac66ed9418b52d4e61d47f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 12.prefab using Guid(e386dc0eac66ed9418b52d4e61d47f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fb2a79b9420e8894d43c1bf25b1ad7') in 0.023653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 14.prefab
+  artifactKey: Guid(ea77e473bce21f44e9faafc8d0d09596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 14.prefab using Guid(ea77e473bce21f44e9faafc8d0d09596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a84421da70748da4a9644567ceaf96') in 0.026012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 2 One Sided.prefab
+  artifactKey: Guid(0a5412f3b03c8c54d9dc24276b69c2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 2 One Sided.prefab using Guid(0a5412f3b03c8c54d9dc24276b69c2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607f66c6d3fd076c3adf9212eaa1f35a') in 0.017826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 3.prefab
+  artifactKey: Guid(0f75f4e957deb4b4e8a99d44440a8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 3.prefab using Guid(0f75f4e957deb4b4e8a99d44440a8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31004555e0d750c456da8c5acf8e561') in 0.016065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.805173 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 20.prefab
+  artifactKey: Guid(3644eed62238ac448a5d0aa1d05ffa57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Blocks And Bricks Prefabs/Blocks And Bricks 20.prefab using Guid(3644eed62238ac448a5d0aa1d05ffa57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7eeb56eac6e57816878209f1b978663') in 0.031870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 54.161462 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 2.prefab
+  artifactKey: Guid(a1910edcd18861c4dbf5012331369b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 2.prefab using Guid(a1910edcd18861c4dbf5012331369b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9b84385940d1bfa3a4a792f3b0fdec') in 0.035145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Hallway 3x2.prefab
+  artifactKey: Guid(254eacce9a58c95478e773ca93828401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Hallway 3x2.prefab using Guid(254eacce9a58c95478e773ca93828401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe5cf376ba4a7ae7bfb0329684b251f') in 0.017007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Hallway 3x1.prefab
+  artifactKey: Guid(e1e6f97d42620ce48848d5770c89478a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Hallway 3x1.prefab using Guid(e1e6f97d42620ce48848d5770c89478a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d26de81e6566f7e31a12e2749a3c0c') in 0.019092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 4.prefab
+  artifactKey: Guid(03b0ed4871f8e8d46aab17cd9b867655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Doors Gates Hallways Prefabs/Gate 4.prefab using Guid(03b0ed4871f8e8d46aab17cd9b867655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be88975a50f1c0d5cf0aff9264d8d991') in 0.019381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 17.627581 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 3x5.prefab
+  artifactKey: Guid(8392f532d4d31c34da2802badd10b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 3x5.prefab using Guid(8392f532d4d31c34da2802badd10b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc78fe3aecd9f054440bcb3105dbda55') in 0.038438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 3x6 One Sided.prefab
+  artifactKey: Guid(9e1d31c165d20c14599a1a8d34924d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 3x6 One Sided.prefab using Guid(9e1d31c165d20c14599a1a8d34924d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957add405c1e10ae13a83d784b04bca1') in 0.063919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 4x5.prefab
+  artifactKey: Guid(e6c600d144c36934dbe617a0550ef5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 4x5.prefab using Guid(e6c600d144c36934dbe617a0550ef5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6333c81c134eaf86cb7ad0f224a922d5') in 0.055651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 3x7.prefab
+  artifactKey: Guid(9240dc56787599844ab08719b80ace4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Square Holes Prefabs/Square Hole 3x7.prefab using Guid(9240dc56787599844ab08719b80ace4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae2b4a695a166245184c23232a65dee') in 0.030861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.421420 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile 1x3.prefab
+  artifactKey: Guid(88d4c45f2ae327941b6ae32694d5c5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile 1x3.prefab using Guid(88d4c45f2ae327941b6ae32694d5c5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56dd933935c7ddff0ccb82a5c33ea9a') in 0.031151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile Top 2.prefab
+  artifactKey: Guid(177cb1cfb6f748949943fb5597ee0e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile Top 2.prefab using Guid(177cb1cfb6f748949943fb5597ee0e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82111b9dae202bcc6e7b0091811c7a0c') in 0.022285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile 4x2.prefab
+  artifactKey: Guid(1bb5689aff5896c44a2c10801d1d1423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile 4x2.prefab using Guid(1bb5689aff5896c44a2c10801d1d1423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64ad8f1c29460ee962e427ee3258382') in 0.020628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile 4x1.prefab
+  artifactKey: Guid(f34d065a4ce8f444d9d767c038f7122d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Wall Prefabs/Wall Tile 4x1.prefab using Guid(f34d065a4ce8f444d9d767c038f7122d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be2e52ea52d50787e55e4e7ff445a4') in 0.013073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.311500 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 3.prefab
+  artifactKey: Guid(185fa0d65649f80438fd5bb1cf732362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 3.prefab using Guid(185fa0d65649f80438fd5bb1cf732362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94752376b66f2c69473ddb3cd18c61a1') in 0.045607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 15.prefab
+  artifactKey: Guid(41ee05a687c6c4942928d40cb1646eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 15.prefab using Guid(41ee05a687c6c4942928d40cb1646eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ff0fc96948ef437f627a94c19def36') in 0.050354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 13.prefab
+  artifactKey: Guid(2bb97643eafc4a4418cc065dbd4c1837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 13.prefab using Guid(2bb97643eafc4a4418cc065dbd4c1837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d506d4ab2a08820fc598e7cdfd958fd') in 0.049156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 12.prefab
+  artifactKey: Guid(d2a6bc7a4cd483345a06f51f26bc6480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Temple Building Kit/Prefabs/Single Cubes Prefabs/Single Cube 12.prefab using Guid(d2a6bc7a4cd483345a06f51f26bc6480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7d3882d390864536e8665422a28d47') in 0.034512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
